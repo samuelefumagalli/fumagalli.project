@@ -1,0 +1,141 @@
+header {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  -webkit-text-fill-color: white;
+  text-align: center;
+}
+
+
+.logo {
+  float: left;
+  margin-right: 20px;
+}
+
+.logo img {
+  padding-left: 30px;
+  width: 70px;
+  height: auto;
+}
+
+body {
+  font-size: 22px;
+  font-family: 'Titillium Web',Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(images/sfondoprova.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #f2f2f2;
+}
+
+.search-bar {
+  margin-left: auto;
+  display: flex;
+  align-items: en;
+  margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+  footer {
+      display: none;
+  }
+}
+
+.nav1 {
+  top: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  background-color: transparent !important;
+}
+
+.nav1 a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.nav1 a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 200px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  z-index: 100;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+footer nav img {
+  opacity: 0.6;
+  margin-right: 25px;
+  max-width: 350px;
+  max-height: 100px;
+  transition: transform 0.3s, scale 0.3s;
+}
+
+footer nav text {
+  color: black;
+}
+
+footer nav img:hover {
+  opacity: 1;
+  transform: rotate(15deg) scale(1.1);
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#apodImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.explanation {
+  max-width: 800px;
+  margin: 10px auto 0;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+.result-image {
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+.result-col {
+  padding-top: 0%;
+}
+
+#resultsContainer {
+  padding-top: 5%;
+  color: white;
+  text-align: center;
+  column-count: 1;
+  column-gap: 0%;
+}
+
